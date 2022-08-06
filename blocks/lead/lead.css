@@ -1,0 +1,13 @@
+.lead {
+  display: flex;
+  margin-top: 56px;
+  flex-flow: column wrap;
+  align-content: center;
+  align-items: center;
+}
+
+@media (max-width:1024px) {
+  .lead {
+    margin-top: 48px;
+  }
+}
