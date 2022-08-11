@@ -11,13 +11,13 @@
 }
 
 @media (max-width: 768px) {
-    .intro__title {
+    .intro__list {
         max-width: 720px;
     }
 }
 
 @media (max-width: 320px) {
-    .intro__title {
+    .intro__list {
         max-width: 288px;
         margin: 34px 0 0;
     }

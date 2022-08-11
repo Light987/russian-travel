@@ -1,8 +1,7 @@
 .footer {
     display: flex;
     margin: 92px auto 24px;
-    align-items: baseline;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 @media (max-width: 768px) {

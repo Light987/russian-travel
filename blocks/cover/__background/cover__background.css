@@ -3,10 +3,12 @@
     max-width: 1184px;
     width: 100%;
     z-index: 1;
+    opacity: 1;
+    transition: opacity 1s ease-out;
 }
 
 .cover__background:hover {
-  opacity: 0.8;
+    opacity: 0.8;
 }
 
 
