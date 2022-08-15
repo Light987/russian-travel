@@ -21,7 +21,7 @@
 
 @media (max-width: 1024px) {
     .cover {
-        min-height: calc(100vw * 640 / 1024);;
+        min-height: calc(100vw * 640 / 1024);
     }
 }
 
