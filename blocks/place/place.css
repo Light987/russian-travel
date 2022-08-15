@@ -22,16 +22,21 @@
   }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 600px) {
   .place {
-    max-width: 340px;
     grid-template-columns: 1fr;
     grid-template-areas:
       "title"
       "url-heading"
       "photo"
       "paragraphs";
-    row-gap: 12px;
+    row-gap: 32px;
     align-content: center;
+  }
+}
+
+@media (max-width: 320px) {
+  .place {
+    max-width: 340px;
   }
 }

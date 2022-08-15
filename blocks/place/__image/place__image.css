@@ -1,6 +1,7 @@
 .place__image {
     grid-area: photo;
     max-width: 460px;
+    width: 100%;
     object-fit: contain;
 }
 
@@ -14,6 +15,12 @@
     .place__image {
         max-width: 340px;
     }
+}
+
+@media (max-width: 600px) {
+  .place__image {
+    max-width: 100%;
+  }
 }
 
 @media (max-width: 320px) {
